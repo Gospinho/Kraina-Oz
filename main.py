@@ -1,5 +1,8 @@
-wynik = 0
-i = int(input("Ile razy mam napisać, że Madzia jest super?"))
-while i < 3:
-     print("Madzia jest super.")
-     i += 1
+pytanie = input("Czy Madzia jest super? 1 - tak, 0 - nie")
+
+if pytanie == "1":
+     print("Madzia jest super!")
+elif pytanie == "0":
+     print("Madzia jest fuj!")
+else:
+     print("Wybrałeś niepoprawnie!")
